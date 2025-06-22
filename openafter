@@ -1,0 +1,16 @@
+#!/bin/sh
+# openafter — open a URL or file after a delay, without blocking
+
+if [ $# -lt 2 ]; then
+  echo "Usage: openafter <delay_seconds> <target>"
+  exit 1
+fi
+
+DELAY="$1"
+TARGET="$2"
+
+# Run sleep and open in the background
+(
+  sleep "${DELAY}s"
+  open "$TARGET"
+) & disown
