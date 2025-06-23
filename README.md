@@ -2,7 +2,7 @@
 
 ## Purpose
 
-`openafter` is a simple utility to open a specified URL or file after a given delay, without blocking the current terminal.
+The `openafter` script opens a specified URL or file after a given delay, without blocking the terminal.
 
 ## Usage
 
@@ -10,7 +10,7 @@
 openafter <delay_seconds> <target>
 ```
 
-*   `<delay_seconds>`: The number of seconds to wait before opening the target.
+*   `<delay_seconds>`:  The number of seconds to wait before opening the target.
 *   `<target>`: The URL or file path to open.
 
 ## Examples
@@ -36,7 +36,7 @@ openafter <delay_seconds> <target>
     chmod +x openafter
     ```
 
-3.  (Optional) Move the script to a directory in your `$PATH` (e.g., `/usr/local/bin`) to make it accessible from anywhere.
+3.  (Optional) Move the script to a directory in your `$PATH` (e.g., `/usr/local/bin`) to make it accessible from anywhere in the terminal.
 
 ## Banner
 
