@@ -2,11 +2,11 @@
 
 ## Purpose
 
-`openafter` is a simple command-line utility that opens a specified URL or file after a given delay, without blocking the terminal.
+`openafter` opens a specified URL or file after a given delay, without blocking the terminal.
 
 ## Usage
 
-```bash
+```
 openafter <delay_seconds> <target>
 ```
 
@@ -17,21 +17,21 @@ openafter <delay_seconds> <target>
 
 1.  Open Google's homepage after 5 seconds:
 
-    ```bash
-    openafter 5 https://www.google.com
+    ```sh
+    openafter 5 "https://www.google.com"
     ```
 
 2.  Open a local file named `document.pdf` after 10 seconds:
 
-    ```bash
-    openafter 10 document.pdf
+    ```sh
+    openafter 10 "document.pdf"
     ```
 
 ## Installation
 
-No installation is required. Simply save the script to a directory in your `PATH` and make it executable:
+This script requires no specific installation steps. Simply save the script to a directory in your `PATH` and make it executable:
 
-```bash
+```sh
 chmod +x openafter
 ```
 
